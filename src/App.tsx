@@ -1,11 +1,9 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React from "react"
+import logo from "./logo.svg"
+import "./App.css"
 
 function App() {
-  const a = {
-    name: '123',
-  }
+  const a = "a"
   return (
     <div className="App">
       <header className="App-header">

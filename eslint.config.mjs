@@ -15,7 +15,7 @@ export default [
     files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
     ignores: ['**/*.config.js', 'dist/**', 'node_modules/**'],
     languageOptions: {
-      globals: globals.browser,
+      globals: globals.browser
     },
     rules: {
       'no-unused-vars': 'off',
@@ -23,8 +23,8 @@ export default [
     },
     settings: {
       react: {
-        version: 'detect',
-      },
-    },
-  },
+        version: 'detect'
+      }
+    }
+  }
 ]
